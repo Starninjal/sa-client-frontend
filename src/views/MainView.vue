@@ -38,7 +38,9 @@
         <RouterLink to="/login"><button>Login</button></RouterLink>
       </div>
     </nav>
-
+    <!-- <div class="div-texto" style="display: flex; justify-content: center;">
+      <h1>{{ textHamburguer }}</h1>
+    </div> -->
     <!-- Vídeo -->
     <div class="img-slider" style="display: flex; justify-content: center; align-items: center; padding: 30px;">
       
@@ -122,18 +124,18 @@ button {
 
 .div-principal {
   width: 100%;
-  height: 100;
   background-color: #3D3D3D;
 }
 
 .div-texto {
   display: flex;
   justify-content: center;
-
+  margin-left: 900px;
+  margin-top: 120px;
   transform: translate(-50%, -50%); /* Centraliza completamente */
   z-index: 2; /* Garante que fique sobre o vídeo */
   background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com opacidade */
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
   max-width: 80%; /* Largura máxima para melhor responsividade */

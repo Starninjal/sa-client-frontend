@@ -14,7 +14,7 @@
       </div>
       <form @submit.prevent="fazerLogin">
         <div class="form-group formgroup1">
-          <label for="username">Cpf:</label>
+          <label for="username">Cpf:</label>  
           <input type="text" class="form-control" v-model="cliente.cpfCliente" required>
         </div>
         <div class="form-group formgroup2">
