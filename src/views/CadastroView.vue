@@ -38,9 +38,14 @@
                                 <input type="email" class="form-control" v-model="cliente.emailCliente">
                             </div>
                             <div class="form-group formgroup1">
+                                <label for="username">Password:</label>
+                                <input type="password" class="form-control" v-model="cliente.usuarioDto.password">
+                            </div>
+                            <div class="form-group formgroup1">
                                 <label for="username">Endereço:</label>
                                 <input type="text" class="form-control" v-model="cliente.enderecoCliente">
                             </div>
+                            
 
 
 
